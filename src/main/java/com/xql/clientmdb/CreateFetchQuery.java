@@ -64,7 +64,7 @@ public class CreateFetchQuery {
         jsonStr = queryObj.toString();
         requestBody = jsonStr;
         try {
-            // System.out.println("requestBody: " + requestBody);
+            System.out.println("requestBody: " + requestBody);
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(this.url))

@@ -1,6 +1,6 @@
 --- https://github.com/ChickenLeg05/Northwind-Database
---- database sources: MySQL, CSV
---- virtual schemas: northwind_b, northwind_c
+--- table northwind_c.suppliers from MySQL database source
+--- table northwind_b.products from CSV database source
 SELECT s.SupplierID, p.ProductName, S.CompanyName
 FROM northwind_c.suppliers s
 JOIN northwind_b.products p

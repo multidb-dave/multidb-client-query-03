@@ -1,5 +1,6 @@
 --- https://github.com/ChickenLeg05/Northwind-Database
---- SQL Server, CSV
+--- table northwind_b.suppliers from SQL Server database source
+--- table northwind_b.products from CSV database source
 SELECT s.SupplierID, p.ProductName, S.CompanyName
 FROM northwind_b.suppliers s
 JOIN northwind_b.products p
